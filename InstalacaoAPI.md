@@ -3,13 +3,16 @@ Documentação para Executar API
 
 ## Pré Requisitos
 
-> Sistema Operacional de 64 bits, obrigatório.
-> Instalar o MYSQL Server a partir da versão 5.7.* [Mysql Server](https://dev.mysql.com/downloads/mysql/)
+> * Sistema Operacional de 64 bits, obrigatório.
+
+> * Instalar o MYSQL Server a partir da versão 5.7.* [Mysql Server](https://dev.mysql.com/downloads/mysql/)
 Obs.: Até o momento não foi testado a utilização da API para configurações alternativas de conexão com o banco (porta de acesso, banco em outra máquina) recomenda-se instalar com as configurações padrões: localhost, porta default de instalação.
-> É necessário instalar o .Net Core 2.1.*
-* [Linux (Debian e derivados, Red Hat e Derivados)](https://docs.microsoft.com/pt-br/dotnet/core/linux-prerequisites?tabs=netcore2x)
-* [Windows](https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.4-windows-x64-installer)
-* [MAC](https://docs.microsoft.com/pt-br/dotnet/core/macos-prerequisites?tabs=netcore2x).
+
+> * É necessário instalar o .Net Core 2.1.*
+
+> > * [Linux (Debian e derivados, Red Hat e Derivados)](https://docs.microsoft.com/pt-br/dotnet/core/linux-prerequisites?tabs=netcore2x)
+> > * [Windows](https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.4-windows-x64-installer)
+> > * [MAC](https://docs.microsoft.com/pt-br/dotnet/core/macos-prerequisites?tabs=netcore2x).
 
 ## Obtendo uma Versão
 
