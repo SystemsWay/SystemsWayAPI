@@ -15,7 +15,7 @@ Obs.: Até o momento não foi testado a utilização da API para configurações
 
 > Será necessário obter a senha para extração dos arquivos, solicite a senha por e-mail.
 
-* Acesse o [reposítorio] e realize o donwload da versão desejada.
+* Acesse o [reposítorio](https://github.com/SystemsWay/SystemsWayAPI/tree/master/Version/) e realize o donwload da versão desejada.
 * Extraia os arquivos no local de sua preferência
 
 ## Configuração do Serviço
