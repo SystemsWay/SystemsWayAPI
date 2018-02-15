@@ -5,7 +5,7 @@ Documentação para a API SystemsWay
 
 [Configurações](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/Configuracoes.md#configura%C3%A7%C3%A3o-api)
 
-[Retorno API]()
+[Retorno API](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/RetornoAPI.md#valida%C3%A7%C3%A3o-de-retorno-api)
 
 [Login](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/login.md#login)
 
