@@ -1,11 +1,11 @@
 # SystemsWayAPI
 Documentação para a API SystemsWay
 
-[Configurações]()
+[Configurações](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/Configuracoes.md#configura%C3%A7%C3%A3o-api)
 
-[Login]()
+[Login](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/login.md#login)
 
-[Gerência de Usuários]()
+[Gerência de Usuários](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/gerenciaUsuario.md#ger%C3%AAncia-de-usu%C3%A1rio)
 
 [Executando a API](https://github.com/SystemsWay/SystemsWayAPI/blob/master/InstalacaoAPI.md#systemswayapi)
 
