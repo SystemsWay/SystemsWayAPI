@@ -1,13 +1,16 @@
 # SystemsWayAPI
 Documentação para a API SystemsWay
 
+[Executando a API](https://github.com/SystemsWay/SystemsWayAPI/blob/master/InstalacaoAPI.md#systemswayapi)
+
 [Configurações](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/Configuracoes.md#configura%C3%A7%C3%A3o-api)
+
+[Retorno API]()
 
 [Login](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/login.md#login)
 
 [Gerência de Usuários](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/gerenciaUsuario.md#ger%C3%AAncia-de-usu%C3%A1rio)
 
-[Executando a API](https://github.com/SystemsWay/SystemsWayAPI/blob/master/InstalacaoAPI.md#systemswayapi)
 
 # Introdução
 	A API da Systems Way foi criado com o intuito de facilitar a integração do WAY com demais aplicações e permitir que um mesmo sistema responda a solicitações das diversas plataformas que serão utilizadas pelo WAY.
