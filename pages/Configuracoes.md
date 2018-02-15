@@ -15,7 +15,7 @@ As configurações da API estão localizadas na caminho ~/Config/Config.json
 
 Cada configuração segue especificada abaixo:
 
-> * RunPort: Valor inteiro que especifica a porta na qual a API estará disponível. Caracteristicas: A posta especificada estará acessível somente à rede interna, a porta acessível a rede externa corresponde ao valor informado -1
+> * RunPort: Valor inteiro que especifica a porta na qual a API estará disponível. Caracteristicas: A posta especificada estará acessível somente à rede interna, a porta acessível a rede externa corresponde ao valor informado +1
 
 > * ShowLog: Valor Booleano (true, false). Caso esteja com valor true, os logs serão exibidos no console caso a API esteja sendo executada em console
 
