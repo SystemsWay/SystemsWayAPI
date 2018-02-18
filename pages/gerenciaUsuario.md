@@ -21,68 +21,81 @@ Exemplo de Retorno:
     "Ativo":"true"
  }]
  ```
+
  ### Exemplo de link com id do usuário:
  > http://localhost:5000/api/Usuario/EB078EB1ABFC9722EBAB9BA3DD303AFD37DD1AE50A791CBA16ABEE0A727029DF?id=1
  
  Para este exemplo será retornado o usuário cadastrado com o id igual a 1
  Exemplo de Retorno:
- ```javascript
+```javascript
 [{
     "Id":"1",
     "UserName":"admin",
     "Ativo":"true"
   }]
- ```
+```
+
  * Caso o ID da sessão informado na URL sejá inválido, será retornado um json com status ERROR, informando que o ID da sessão está inválido. Neste caso, verifique se o id está correto, caso esteja, loge novamente, a sessão pode ter sido inativada pelas rotinas da API (inativação por inatividade, por alteração no usuário vínculado ou alteração no registro da empresa do usuário)
  
- ## Post
+## Post
+
  Recebe um json e o id da sessão do usuário
  Exemplo de link:
  > http://localhost:5000/api/Usuario/EB078EB1ABFC9722EBAB9BA3DD303AFD37DD1AE50A791CBA16ABEE0A727029DF
  Arquivo json associado:
-  ```javascript
+
+```javascript
 {
-    "UserName":"user3",
-    "PassWord":"EB078EB1ABFC9722EBAB9BA3DD303AFD37DD1AE50A791CBA16ABEE0A727029DF",
-    "Ativo":"true"
- }
- ```
- Caso o usuário seja cadastrado, será retornado um json informando que o usuário foi cadastrado, tal como o do exemplo:
-  ```javascript
+  "UserName":"User02",
+  "PassWord":"0778cfd9d0558d1f6486216c914807405e82c743974a656411fe29980e59c157",
+  "Email":"email@teste.com",
+  "Ativo":true
+}
+```
+
+Caso o usuário seja cadastrado, será retornado um json informando que o usuário foi cadastrado, tal como o do exemplo:
+
+```javascript
 {
     "Status":"OK",
-    "IDSessao":"EB078EB1ABFC9722EBAB9BA3DD303AFD37DD1AE50A791CBA16ABEE0A727029DF",
+    
     "Message":"",
     "StackTrace":""
  }
- ```
- Caso o usuário não seja cadastrado, será retornado um json infotmando o problema:
-   ```javascript
+```
+
+Caso o usuário não seja cadastrado, será retornado um json infotmando o problema:
+
+```javascript
 {
-    "Status":"ERROR",
-    "IDSessao":"EB078EB1ABFC9722EBAB9BA3DD303AFD37DD1AE50A791CBA16ABEE0A727029DF",
-    "Message":"",
-    "StackTrace":""
- }
- ```
+    "idCadastro": 3,
+    "codigo": "OK",
+    "message": null
+}
+```
+
+Caso o Hash da senha não seja informado, uma senha aleatória será gerada e enviada para o email informado no registro, o rash da senha gerada será retornado
  Onde a mensagem pode ser uma das seguintes (Assumindo que o ID da sessão seja válido):
  > * O formato de senha está incorreto, a senha deve estar sob o Hash SHA/256, com 64 caracteres.
  > * O nome do usuário não pode conter espaços
  > * Já Existe um usuário cadastrado com este nome.
  
- ## Put
+## Put
+
  > Link Base: http://localhost:5000/api/Usuario/EB078EB1ABFC9722EBAB9BA3DD303AFD37DD1AE50A791CBA16ABEE0A727029DF?id=1
  
  Recebe um arquivo na URL o id da Sessão e o ID do usuário, ambos obrigatórios, e um arquivo json com os novos dados do usuário.
  Exemplo de arquivo json:
  
- ```javascript
+```javascript
 {
-    "UserName":"admin",
-    "PassWord":"EB078EB1ABFC9722EBAB9BA3DD303AFD37DD1AE50A791CBA16ABEE0A727029DF",
-    "Ativo":"true"
- }
- ```
+  "UserName":"User02",
+  "PassWord":"0778cfd9d0558d1f6486216c914807405e82c743974a656411fe29980e59c157",
+  "Email":"email2@teste.com",
+  "Ativo":true
+}
+```
+
 Caso o ID exista, será realizar a atualização dos dodos, utilizando os dados informados no json.
 
 Obs.: Não é necessário enviar o arquivo json completo, somente o campo que foi editado, isso vale para todos os métodos post da api. 

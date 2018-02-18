@@ -6,7 +6,7 @@
   ```javascript
   {
     "User":"admin",
-    "Passwd":"46070D4BF934FB0D4B06D9E2C46E346944E322444900A435D7D9A95E6D7435F5"
+    "Passwd":"46070D4BF034FB0D4B06D9E2C46E346944E322744900A485D7D9A95E6D7435F5"
   }
   ```
   Será retornado outro json que pode assumir dois possíveis casos
@@ -14,17 +14,15 @@
   Neste caso o json retorna o ID da sessão:
   ```javascript
   {
-    "Status":"OK",
-    "IDSessao":"46070D4BF934FB0D4B06D9E2C46E346944E322444900A435D7D9A95E6D7435F5",
-    "Message":"Login Realizado com sucesso"
+    "codigo": "00",
+    "idSessao": "3F933C10CEE311E383AB361983E584CFA66D403B6E83E43AEFD958B01A42A53F"
   }
   ```
   2. Login incorreto
   ```javascript
-  {
-    "Status":"ERROR",
-    "IDSessao":"",
-    "Message":"Usuário ou senha estão inválidos"
-  }
+{
+    "codigo": "01",
+    "idSessao": "NA"
+}
   ```
   > * Um usuário pode receber ERROR ao tentar realizar um login por um dos motivos: usuário ou senha inválidos, usuário inativo, empresa do usuário inativa.

@@ -22,3 +22,23 @@ Cada configuração segue especificada abaixo:
 > * SaveLog: Valor Booleano (true, false). Caso esteja com valor true, os logs serão salvos em arquivo com o nome composto pela data atual.
 
 > * LogFile: Campo String, deve conter o caminho da pasta onde os logs serão salvos. Um arquivo será criado por dia. Somente 
+
+> * EmailHost: Campo String, deve conter o host utilizado para envio de email
+
+> * EmailPort: Campo Int, deve conter a porta que o host de emil deve utilizar
+
+> * EmailEneableSSL: Campo Booleano, Deve informa se o host de email utiliza SSL
+
+> * EmailUseDefaultCredencials : Campo Booleano, Deve informa utiliza-se a credenciais defaults do host (sem credenciais)
+
+> * EmailTimeOut: Campo Int, contém o tempo em milisegundos de timeout de envio de email
+
+> * EmailUser: Campo String, Contém o email utilizado para envio de emails
+
+> * EmailPasswd: Campo String, contém a Senha do Email.
+
+> * EmailTimeSleepTask: Campo Int, tempo em milisegundos de delay para serviço de envio de email
+
+> * LengthRandomPasswd: Campo Int, deve conter a quantidade de caracteres de senhas geradas aleatoriamente.
+
+> * UpdateDataBase: Campo Booleano, indica se a instacia da API está sendo utilizada para realizar update na base de dados
