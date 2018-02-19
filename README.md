@@ -33,3 +33,4 @@ Documentação para a API SystemsWay
  
 
 Obs.: Nenhum registro será apagado, o delete somente inativa o registro com id informado
+Obs.: Esta documentação corresponde a última versão contida neste repositário, para conseguir acesso à versão solicite a senha acesso a versão.
