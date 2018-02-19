@@ -14,7 +14,7 @@ Documentação para a API SystemsWay
 [Gerência de Pessoas](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/GerenciaPessoa.md#ger%C3%AAncia-de-pessoa)
 
 # Introdução
-	A API da Systems Way foi criado com o intuito de facilitar a integração do WAY com demais aplicações e permitir que um mesmo sistema responda a solicitações das diversas plataformas que serão utilizadas pelo WAY.
+A API da Systems Way foi criado com o intuito de facilitar a integração do WAY com demais aplicações e permitir que um mesmo sistema responda a solicitações das diversas plataformas que serão utilizadas pelo WAY.
 ## Detalhes técnicos
   > * É implementado utilizando .Net Core 2.0.
   > * Utiliza protocolo HTTP,
