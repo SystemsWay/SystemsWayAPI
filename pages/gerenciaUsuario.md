@@ -105,3 +105,4 @@ Obs.: Não é necessário enviar o arquivo json completo, somente o campo que fo
 ## Delete
 > Link Base: http://localhost:5000/api/Usuario/EB078EB1ABFC9722EBAB9BA3DD303AFD37DD1AE50A791CBA16ABEE0A727029DF?id=1
 Recebe o ID da sessão e o ID do usuário
+Reotorna um código de erro, ou código OK, informando que a ação foi realizada.

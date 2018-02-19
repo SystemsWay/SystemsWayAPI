@@ -11,6 +11,7 @@ Documentação para a API SystemsWay
 
 [Gerência de Usuários](https://github.com/SystemsWay/SystemsWayAPI/blob/master/pages/gerenciaUsuario.md#ger%C3%AAncia-de-usu%C3%A1rio)
 
+[Gerência de Pessoas]()
 
 # Introdução
 	A API da Systems Way foi criado com o intuito de facilitar a integração do WAY com demais aplicações e permitir que um mesmo sistema responda a solicitações das diversas plataformas que serão utilizadas pelo WAY.
