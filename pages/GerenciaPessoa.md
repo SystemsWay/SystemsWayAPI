@@ -137,36 +137,23 @@ Recebe como parâmetro o id da sessão (Obrigatório) e o id da pessoa (opcional
 Tipos de valores Padrões:
 
 >   Tipopessoa 
-
-	* ALUNO
-
-	* RESPONSAVEL
-
-	* EMPRESATRANSPORTE
-
-	* MOTORISTA
-
-	* ESCOLA
-
-	* FISICA
-
-	* JURIDICA
+* ALUNO
+* RESPONSAVEL
+* EMPRESATRANSPORTE
+* MOTORISTA
+* ESCOLA
+* FISICA
+* JURIDICA
 
 >  TipoDocumento
-
-	* CPF
-
-	* CNPJ
-
-	* RG
-
-	* CNH
+* CPF
+* CNPJ
+* RG
+* CNH
 
 >  IE
-
-	* ISENTO
-
-	* Valor númerico
+* ISENTO
+* Valor númerico
 
 Será retornado um Json, informando o Id da pessoa Cadastrada:
 
